@@ -1,4 +1,4 @@
-FROM debian:stretch-slim
+FROM debian:11.6-slim
 
 RUN set -ex \
     && apt-get clean && apt-get update \
