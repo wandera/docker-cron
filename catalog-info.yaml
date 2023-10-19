@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: docker-cron
+  labels:
+    - jira-key: TESTAUTO
+    - language: Shell
+  annotations:
+    backstage.io/source-location: url:https://github.com/wandera/docker-cron
+spec:
+  type: script
+  lifecycle: production
+  owner: testautomation
+  system: Protect
